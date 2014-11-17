@@ -1,0 +1,12 @@
+{
+  "name": "code",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass-official": "~3.2.0",
+    "modernizr": "~2.8.2"
+  },
+  "devDependencies": {
+    "font-awesome-bower": "~4.2.0",
+    "roboto-slab-fontface": "*"
+  }
+}
