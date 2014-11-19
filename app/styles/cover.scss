@@ -2,10 +2,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
-
 // endbower
-
-@import "../bower_components/roboto-slab-fontface/roboto-slab-fontface.css";
 
 @import "mixins";
 @import "variables";
@@ -251,5 +248,25 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 }
 
 .rss {
-  margin-bottom: -5px;
+  vertical-align: bottom;
+}
+
+footer {
+  @include set(height, (xs: 46px, sm: 30px, md: 30px, lg: 30px));
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 12px;
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  p {
+    margin: 0;
+  }
+  a {
+    color: #f4e9ad;
+    &:hover, &:focus {
+      color: #f4e9ad;
+    }
+  }
 }

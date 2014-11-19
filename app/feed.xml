@@ -1,0 +1,160 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+	<channel>
+		<title>Visualspec</title>
+		<link>http://www.visualspec.org</link>
+		<description>a guide for building flexible and reusable enterprise architectures</description>
+		<copyright>Copyright &#xA9; Indranil Bhattacharya</copyright>
+		<pubDate>Tue, 11 Feb 2011 02:30:00 GMT</pubDate>
+		<item>
+            <title><![CDATA[Visualspec: Architecture Styles]]></title>
+            <link>http://www.visualspec.org/Enterprise_Architecture/Architecture_Styles/</link>
+            <pubDate>Mon, 23 Jul 2012 16:42:00 GMT</pubDate>
+            <description><![CDATA[Could businesses benefit from applying different architectural styles to design systems in different areas of the enterprise, just as cities apply different architectural styles for designing Cathedrals, Town Halls, and Bazaars? Applying different architectural styles would practically imply that when designing a system for finance we would try to focus functionality on regulatory compliance, prioritize the consistency and reliability of information over its performance, and use technical paradigms that are transactional in nature. ]]></description>
+        </item>
+		<item>
+			<title><![CDATA[Visualspec: When effort estimations feel like buying showroom kitchens]]></title>
+			<link>http://www.visualspec.org/Attitude/When_effort_estimations_feel_like_buying_showroom_kitchens/</link>
+			<pubDate>Sun, 11 Jul 2011 16:42:00 GMT</pubDate>
+			<description><![CDATA[Purchasing a showroom kitchen can be an unpleasant experience, especially if you’re not sure of the value of what you are buying. Kitchen showrooms tend to have the atmosphere of a prestigious car dealership, perhaps because the price tag of a well-designed kitchen is similar to a mid-sized car.]]></description>
+		</item>
+		<item>
+			<title><![CDATA[Visualspec: What Squash can teach us about learning environments]]></title>
+			<link>http://www.visualspec.org/Attitude/What_Squash_can_teach_us_about_learning_environments/</link>
+			<pubDate>Sun, 11 Jul 2011 16:42:00 GMT</pubDate>
+			<description><![CDATA[Could the sport of Squash also teach us some useful organizational lessons? While the analogies between learning Squash and developing professional skills aren’t exact, both involve similar processes. Competitive sports mean game players become serious about having fun.]]></description>
+		</item>
+		<item>
+			<title><![CDATA[Visualspec: Modeling Capabilities]]></title>
+			<link>http://www.visualspec.org/Information_Modeling/Capabilities/Modeling_Capabilities/</link>
+			<pubDate>Sun, 04 Jul 2011 10:48:00 GMT</pubDate>
+			<description><![CDATA[Developing an empirical and quantifiable model for work, and how it’s done, involves incorporating concepts like abilities and skills, both of which are difficult to represent empirically. The same task can often be performed in several ways, and would largely depend upon the situation and interactions involved at the moment when the work needs to be performed.]]></description>
+		</item>
+		<item>
+			<title><![CDATA[Visualspec: Weak versus Strong Typing]]></title>
+			<link>http://www.visualspec.org/Information_Modeling/Ontologies/Weak_versus_Strong_Typing/</link>
+			<pubDate>Tue, 11 Feb 2011 02:30:00 GMT</pubDate>
+			<description><![CDATA[Systems that are based on abstract concepts are able to cover a broader spectrum of situations without understanding specifics or nuances. Systems that are based on specifics and avoid abstractions are only able to cover a smaller spectrum of situations, but have a deeper understanding of those situations]]></description>
+		</item>
+		<item>
+			<title><![CDATA[Visualspec: 3 orders of Logic]]></title>
+			<link>http://www.visualspec.org/Information_Modeling/Ontologies/3_orders_of_Logic/</link>
+			<pubDate>Tue, 08 Feb 2011 03:54:00 GMT</pubDate>
+			<description><![CDATA[Ontologies offer a simple representational paradigm, in that the syntax required to develop an Ontology is relatively straight-forward (circles, lines, and labels). However, for an Ontology to be useful, it has to cover a wide variety of phenomenon and expand without requiring fundamental changes]]></description>
+		</item>
+		<item>
+			<title><![CDATA[Visualspec]]></title>
+			<link>http://www.visualspec.org/</link>
+			<pubDate>Sun, 09 Jan 2011 22:00:00 GMT</pubDate>
+			<description><![CDATA[a guide for building flexible and reusable enterprise architectures]]></description>
+		</item>
+		<item>
+			<title><![CDATA[Visualspec: What is this site all about?]]></title>
+			<link>http://www.visualspec.org/Introduction/What_is_this_site_all_about/</link>
+			<pubDate>Sun, 09 Jan 2011 22:00:00 GMT</pubDate>
+			<description><![CDATA[Getting large groups of people to work together towards is a complex problem. A common technique to solve a complex problem is to break it into smaller problems, and thus a large group of people are assigned to smaller departments]]></description>
+		</item>
+		<item>
+			<title><![CDATA[Visualspec: The Analyst's Attitude]]></title>
+			<link>http://www.visualspec.org/Attitude/The_Analyst's_Attitude/</link>
+			<pubDate>Sun, 09 Jan 2011 22:00:00 GMT</pubDate>
+			<description><![CDATA[Before approach any challenge, an analyst should be open examining their analytical methods, the underlying values they use to judge the best solution or fit for the problem, and be open to admitting that they are not always in control of all of the variables within a situation]]></description>
+		</item>
+		<item>
+			<title><![CDATA[Visualspec: Communicating Design]]></title>
+			<link>http://www.visualspec.org/Visual_Specification/Communicating_Design/</link>
+			<pubDate>Sun, 09 Jan 2011 22:00:00 GMT</pubDate>
+			<description><![CDATA[Visual specifications are designed to communicate with readers as a speaker would communicate with an audience. They use simple illustrations that provide rich meaning, analogous to a speaker using an illustrated presentation]]></description>
+		</item>
+		<item>
+			<title><![CDATA[Visualspec: Overview of Representations]]></title>
+			<link>http://www.visualspec.org/Visual_Specification/Overview_of_Representations/</link>
+			<pubDate>Sun, 09 Jan 2011 22:00:00 GMT</pubDate>
+			<description><![CDATA[Large enterprises have a variety of audiences, each with different interests and priorities. The rich diagramming and specification techniques that have been developed for technical communications are relatively rich, with the growing maturity of standards like UML, but these communication forms are restricted to audiences with literacy in technical concepts]]></description>
+		</item>
+		<item>
+			<title><![CDATA[Visualspec: Introduction to Ontologies]]></title>
+			<link>http://www.visualspec.org/Information_Modeling/Ontologies/Introduction_to_Ontologies/</link>
+			<pubDate>Sun, 09 Jan 2011 22:00:00 GMT</pubDate>
+			<description><![CDATA[Ontologies are used to represent the nature of things, and in order to do this effectively, the development of an Ontology must communicate ideas clearly and effectively. To some extent, clarity and effectiveness can be achieved through using a visual representation with minimal syntax]]></description>
+		</item>
+		<item>
+			<title><![CDATA[Visualspec: Business Ontologies]]></title>
+			<link>http://www.visualspec.org/Information_Modeling/Ontologies/Business_Ontologies/</link>
+			<pubDate>Sun, 09 Jan 2011 22:00:00 GMT</pubDate>
+			<description><![CDATA[Ontologies offer an effective means of communicating concepts within large enterprises with a variety of audiences. Due to their simplistic nomenclature, readers can focus on the concepts rather than trying to develop nomenclature literacy]]></description>
+		</item>
+		<item>
+			<title><![CDATA[Visualspec: Elements of an Ontology]]></title>
+			<link>http://www.visualspec.org/Information_Modeling/Ontologies/Elements_of_an_Ontology/</link>
+			<pubDate>Sun, 09 Jan 2011 22:00:00 GMT</pubDate>
+			<description><![CDATA[Ontologies are made up of entities and relationships between entities. In order to effectively structure ontologies, it is important to distinguish between the different types of entities, the depth of knowledge (1st, 2nd, or 3rd order) required for each entity, and the nature of the relationships between entities]]></description>
+		</item>
+		<item>
+			<title><![CDATA[Visualspec: Ontology Anti-patterns]]></title>
+			<link>http://www.visualspec.org/Information_Modeling/Ontologies/Ontology_Anti-Patterns</link>
+			<pubDate>Sun, 09 Jan 2011 22:00:00 GMT</pubDate>
+			<description><![CDATA[A wagonwheel occurs when a collection of entities manage their relationship with each other through a single entity. These entities assume the telltale shape of a wheel with several spokes, the entity in the center resembling the hub, the relationship with other entities resembling the spokes a wheel, and the entities on the edge resembling the rim of the wheel]]></description>
+		</item>
+		<item>
+			<title><![CDATA[Visualspec: Introduction to Process Modeling]]></title>
+			<link>http://www.visualspec.org/Information_Modeling/Processes/Introduction_to_Process_Modeling/</link>
+			<pubDate>Sun, 09 Jan 2011 22:00:00 GMT</pubDate>
+			<description><![CDATA[A business process represents a combination of tasks linked to each other to realize a business objective. The business process model will capture a definition of these tasks, the roles required to perform these tasks and the organizations within which the tasks are performed]]></description>
+		</item>
+		<item>
+			<title><![CDATA[Visualspec: Why are Processes Important?]]></title>
+			<link>http://www.visualspec.org/Information_Modeling/Processes/Why_are_Processes_Important/</link>
+			<pubDate>Sun, 09 Jan 2011 22:00:00 GMT</pubDate>
+			<description><![CDATA[Processes, despite being intangible and conceptual constructions of the human mind, have a strong presence in most workplaces. Most of us are familiar with the language of processes, and terms of roles, tasks, results, and efficiency are part of our everyday vocabulary in the workplace]]></description>
+		</item>
+		<item>
+			<title><![CDATA[Visualspec: Business Templates]]></title>
+			<link>http://www.visualspec.org/Download_Templates/Business_Templates/</link>
+			<pubDate>Sun, 09 Jan 2011 22:00:00 GMT</pubDate>
+			<description><![CDATA[download free business templates]]></description>
+		</item>
+		<item>
+			<title><![CDATA[Visualspec: System Templates]]></title>
+			<link>http://www.visualspec.org/Download_Templates/System_Templates/</link>
+			<pubDate>Sun, 09 Jan 2011 22:00:00 GMT</pubDate>
+			<description><![CDATA[download free system templates]]></description>
+		</item>
+		<item>
+			<title><![CDATA[Visualspec: Technical Templates]]></title>
+			<link>http://www.visualspec.org/Download_Templates/Technical_Templates/</link>
+			<pubDate>Sun, 09 Jan 2011 22:00:00 GMT</pubDate>
+			<description><![CDATA[download free technical templates]]></description>
+		</item>
+		<item>
+			<title><![CDATA[Visualspec: Dynamic Models and Static Models of the Enterprise]]></title>
+			<link>http://www.visualspec.org/Enterprise_Architecture/Dynamic_and_Static_Models/</link>
+			<pubDate>Sun, 09 Jan 2011 22:00:00 GMT</pubDate>
+			<description><![CDATA[The primary objective for technical analysis is to produce a technical design that can be used for the implementation of a system. The technical design should clearly outline to the implementers the exact tasks that need to be undertaken to produce a working system]]></description>
+		</item>
+		<item>
+			<title><![CDATA[Visualspec: Characteristics of Effective Information Systems]]></title>
+			<link>http://visualspec.org/On_System_Design/Characteristics_of_Effective_Information_Systems/</link>
+			<pubDate>Sun, 09 Jan 2011 22:00:00 GMT</pubDate>
+			<description><![CDATA[A good architecture for an information system tries to balance the conflicting criteria of functionality, usability, reliability, performance, portability, and maintainability. A 'perfect' architecture is a myth, and creating a 'future-proof' solution even more so]]></description>
+		</item>
+		<item>
+			<title><![CDATA[Visualspec: What are Information Systems?]]></title>
+			<link>http://visualspec.org/On_System_Design/What_are_Information_Systems/</link>
+			<pubDate>Sun, 09 Jan 2011 22:00:00 GMT</pubDate>
+			<description><![CDATA[Information Systems are realized when people exchange information with each other to achieve common goals. In this day and age, most information is exchanged through computers, and the terms information system and comptuer system is used inter-changeably]]></description>
+		</item>
+		<item>
+			<title><![CDATA[Visualspec: What is a System?]]></title>
+			<link>http://visualspec.org/On_System_Design/What_is_a_System/</link>
+			<pubDate>Sun, 09 Jan 2011 22:00:00 GMT</pubDate>
+			<description><![CDATA[Structured and unstructured ways of working, utilizing repeatable patterns of knowledge, learning from the past but not repeating it verbatim, innovating in the face of intense competition, constantly and continuously improving while keeping existing structures stable]]></description>
+		</item>
+		<item>
+			<title><![CDATA[Visualspec: What's important to the business?]]></title>
+			<link>http://visualspec.org/On_System_Design/What's_Important_to_the_Business/</link>
+			<pubDate>Sun, 09 Jan 2011 22:00:00 GMT</pubDate>
+			<description><![CDATA[What goes in a system, and what doesn't? What sort of functional coverage a system have, and how should it treat its users? These answers to these questions are a reflection of the underlying value system in an organization]]></description>
+		</item>
+	</channel>
+</rss>

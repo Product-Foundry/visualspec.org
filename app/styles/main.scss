@@ -3,8 +3,6 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-@import "../bower_components/roboto-slab-fontface/roboto-slab-fontface.css";
-
 @import 'mixins';
 @import 'variables';
 @import 'cover';
@@ -25,7 +23,7 @@ html, body {
   height: 100%;
   background-color: $bg-color;
   color: $text-color;
-  font-family: 'Roboto Slab';
+  font-family: 'Roboto Slab', serif;
   font-weight: 400;
 }
 
@@ -68,5 +66,9 @@ body {
   &:hover, &:active {
     background-color: #909094;
   }
+}
+
+.blue {
+  color:#3572b4;
 }
 
