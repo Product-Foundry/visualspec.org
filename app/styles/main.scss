@@ -1,11 +1,18 @@
-$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
-// bower:scss
-@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
-// endbower
+$font-path: '/styles/fonts/';
+$icon-font-path: $font-path;
+$fa-font-path: $font-path;
+$roboto-font-path: $font-path;
 
+@import "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap.scss";
+@import '../bower_components/font-awesome/scss/font-awesome';
+@import '../bower_components/roboto-fontface/roboto-fontface.scss';
+
+
+@import 'fonts';
 @import 'mixins';
 @import 'variables';
 @import 'cover';
+@import 'articles';
 
 // Breakpoint starting viewport widths
 $sm:  768px;
@@ -70,5 +77,21 @@ body {
 
 .blue {
   color:#3572b4;
+}
+.spacer20 {
+  padding: 0;
+  margin: 0;
+  height: 20px;
+  line-height: 1;
+  font-size: 10px;
+}
+
+.shadowEffect {
+  position: relative;
+  background: #fff;
+  height: 10px;
+  margin: 10px auto 30px;
+  width: 70%;
+  box-shadow: 0 5px 8px -3px rgba(0,0,0,0.20);
 }
 
