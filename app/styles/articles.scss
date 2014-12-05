@@ -31,24 +31,7 @@
       margin: 0;
     }
   }
-  #logoSmall {
-    margin: 0;
-    @include set(padding, (xs: 10px 0, sm: 15px 0, md: 15px 0, lg: 15px 0));
-    a {
-      text-decoration: none;
-    }
-    h1 {
-      margin: 0;
-      padding: 0 0 0 53px;
-      background: url(../images/logo.svg) no-repeat left center;
-      background-size: 38px 36px;
-      font-family: 'Kaushan Script', cursive;
-      font-size: 26px;
-      line-height: 1.4;
-      color: rgba(255, 255, 255, 0.95);
-      text-shadow: 1px 1px 0 rgba(26, 100, 162, 0.6), -1px -1px 1px rgba(0, 0, 0, 0.35);
-    }
-  }
+  
   .pageTitle {
     color: #fff;
     text-shadow: 1px 1px 0 rgba(26, 100, 162, 0.6), -1px -1px 1px rgba(0, 0, 0, 0.35);
