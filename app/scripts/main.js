@@ -64,4 +64,23 @@ $(document).ready(function () {
     });
   };
   $('#main-nav a').click(scrollToPosition);
+  
+  $('#accordion').find('.accordion-toggle').click(function(){
+    //Expand or collapse this panel
+    $(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');
+    $(this).next().slideToggle('fast');
+    //Hide the other panels
+    $(".accordion-content").not($(this).next()).slideUp('fast');
+    $(".accordion-content").not($(this).next()).find('i').toggleClass('fa-chevron-up fa-chevron-down');
+  });
+  
+  $(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+     //>=, not <=
+    if (scroll >= 500) {
+        //clearHeader, not clearheader - caps H
+        $('footer').addClass('blue-footer');
+    }
+  }); //missing );
+  
 });

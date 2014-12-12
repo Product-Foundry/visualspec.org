@@ -12,6 +12,7 @@ $roboto-font-path: $font-path;
 @import 'mixins';
 @import 'variables';
 @import 'cover';
+@import 'toc';
 @import 'articles';
 
 // Breakpoint starting viewport widths
@@ -107,7 +108,8 @@ body {
         text-shadow: 1px 2px 8px #000;
         &:hover, &:focus{
           outline: 0;
-          color: #cbcbd4;
+          color: #fff;
+          opacity:.8;
         }
       }
     }
@@ -138,7 +140,7 @@ body {
     }
     &.navbar-shrink {
       padding: 10px 0;
-      background: linear-gradient(to bottom, #3079b7 0%, #6296ca 60%);
+      background-image: url(../images/pattern.png), linear-gradient(to bottom, #3079b7 0%, #6296ca 60%);
       border-bottom: 1px solid rgba(255,255,255,0.3);
       .navbar-brand {
         font-size: 1.5em;
@@ -161,34 +163,45 @@ section {
   }
 }
 
+h1{
+  margin: 0;
+  padding: 0 0 0 53px;
+  background: url(../images/logo.svg) no-repeat left center;
+  background-size: 38px 36px;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 26px;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow: 1px 1px 0 rgba(26, 100, 162, 0.6), -1px -1px 1px rgba(0, 0, 0, 0.35);
+}
+
+h2{
+  position: relative;
+  text-transform: uppercase;
+  @include set(font-size, (xs: 24px, sm: 40px, md: 40px, lg: 40px) );
+  @include set(line-height, (xs: 24px, sm: 40px, md: 40px, lg: 40px) );
+  @include set(padding-top, (xs: 80px, sm: 110px, md: 110px, lg: 110px) );
+  font-weight: 300;
+  margin: 0;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.6), -1px -1px 1px rgba(0,0,0,0.35);
+}
+
 .navbar-brand {
   margin: 7px 0;
   padding: 0;
   text-decoration: none;
   display: inline-block;
   height: 36px;
-  h1 {
-    margin: 0;
-    padding: 0 0 0 53px;
-    background: url(../images/logo.svg) no-repeat left center;
-    background-size: 38px 36px;
-    font-family: 'Kaushan Script', cursive;
-    font-size: 26px;
-    line-height: 1.4;
-    color: rgba(255, 255, 255, 0.95);
-    text-shadow: 1px 1px 0 rgba(26, 100, 162, 0.6), -1px -1px 1px rgba(0, 0, 0, 0.35);
-  }
 }
 
 footer {
-  @include set(height, (xs: 90px, sm: 30px, md: 30px, lg: 30px));
-  left: 50%;
-  transform: translateX(-50%);
+  @include set(height, (xs: 60px, sm: 30px, md: 30px, lg: 30px));
+  width: 100%;
   color: #fff;
   font-size: 12px;
-  position: fixed;
   z-index: 10;
   bottom: 0;
+  margin-top: -30px;
   p {
     margin: 0;
   }
@@ -200,8 +213,39 @@ footer {
   }
 }
 
+#toc, #page-wrapper {
+  footer {
+    padding-top: 0;
+    color: $text-color;
+    a {
+      color: #3572b4;
+      &:hover, &:focus {
+        color: #3572b4;
+      }
+    }
+  }
+}
+
+.accordion-toggle {
+  cursor: pointer;
+}
+.accordion-content {
+  display: none;
+  padding-left: 15px;
+}
+
 .blue {
   color:#3572b4;
 }
-
+.bold {
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+.spacer10 {
+  height: 10px;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  font-size: 5px;
+}
 

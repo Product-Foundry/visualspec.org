@@ -3,25 +3,13 @@
 
 #page-wrapper {
   width: 100%;
-  height: 100%;
-  @include set(min-height, (xs: 740px, sm: 100%, md: 100%, lg: 100%));
   background: #efebc9;
-  background: linear-gradient(to bottom, #efebc9 0%, #fffef9 60%);
+  background-image: url(../images/pattern.png), linear-gradient(to bottom, #efebc9 0%, #fffef9 60%);
   position: relative;
-  .overlay {
-    background: url(../images/cover-pattern.png) repeat top left;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    @include set(min-height, (xs: 740px, sm: 100%, md: 100%, lg: 100%));
-    z-index: 10;
-  }
   header {
     background: #3079b7;
-    background: linear-gradient(to bottom, #3079b7 0%, #6296ca 60%);
-    @include set(height, (xs: 96px, sm: 66px, md: 66px, lg: 66px));
+    background-image: url(../images/pattern.png), linear-gradient(to bottom, #3079b7 0%, #6296ca 60%);
+    @include set(height, (xs: auto, sm: 66px, md: 66px, lg: 66px));
     box-shadow: 0 1px 5px rgba(0,0,0,0.5);
     .container {
       position: relative;
@@ -29,28 +17,33 @@
     }
     h1 {
       margin: 0;
+      line-height: 66px;
     }
   }
-  
   .pageTitle {
     color: #fff;
     text-shadow: 1px 1px 0 rgba(26, 100, 162, 0.6), -1px -1px 1px rgba(0, 0, 0, 0.35);
     padding: 0; 
     margin: 0;
-    font-size: 18px;
+    @include set(font-size, (xs: 14px, sm: 18px, md: 18x, lg: 18px));
     font-weight: 700;
     @include set(line-height, (xs: 30px, sm: 66px, md: 66px, lg: 66px));
+    a {
+      color: #fff;
+    }
   }
 }
 
 #content {
-  margin: 20px auto;
+  margin: 0 auto;
+  padding: 30px 0 50px;
   position: relative;
   z-index: 20;
   .container {
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 0 6px rgba(0,0,0,0.25);
+    padding-bottom: 10px;
   }
   .articleImage {
     position: relative;
@@ -83,8 +76,9 @@
     }
   }
   .articleIntro {
-    @include set(width, (xs: calc(100% - 300px), sm: calc(100% - 310px), md: calc(100% - 310px), lg: calc(100% - 310px)));
+    @include set(width, (xs: 100%, sm: calc(100% - 310px), md: calc(100% - 310px), lg: calc(100% - 310px)));
     @include set(float, (xs: none, sm: right, md: right, lg: right));
+    @include set(padding-top, (xs: 15px, sm: 0, md: 0, lg: 0));
   }
   
   h4 {
@@ -93,6 +87,24 @@
     font-family: 'Roboto';
     font-weight: 300;
     color: #000;
+  }
+}
+
+.horizontalSeparator {
+  padding: 0;
+  border: none;
+  border-top: medium double #ddd;
+  color: #999;
+  text-align: center;
+  margin: 20px 10% 0;
+  &:after {
+    content: "\00a7";
+    display: inline-block;
+    position: relative;
+    top: -16px;
+    font-size: 18px;
+    padding: 0 8px;
+    background: white;
   }
 }
 
@@ -106,5 +118,21 @@
   .container {
     width: 960px;
   }
+}
+
+.rounded-number {
+  display: inline-block;
+  background: $text-color;
+  border-radius: 20px;
+  padding: 3px 4px;
+  color: #fff;
+  font-size: 80%;
+  font-weight: 700;
+  width: 21px;
+  text-align: center;
+}
+
+blockquote {
+  font-size: 14px;
 }
 
